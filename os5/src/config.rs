@@ -9,5 +9,4 @@ pub const BIG_STRIDE: usize = 125369;
 
 pub const TRAMPOLINE: usize = usize::MAX - PAGE_SIZE + 1;
 pub const TRAP_CONTEXT: usize = TRAMPOLINE - PAGE_SIZE;
-
 pub const CLOCK_FREQ: usize = 12500000;
